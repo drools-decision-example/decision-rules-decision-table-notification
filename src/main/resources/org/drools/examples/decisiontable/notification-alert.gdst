@@ -235,7 +235,6 @@
     </imports>
   </imports>
   <packageName>org.drools.examples.decisiontable</packageName>
-  <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
