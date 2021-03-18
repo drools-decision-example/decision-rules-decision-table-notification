@@ -235,7 +235,6 @@
     </imports>
   </imports>
   <packageName>com.redhat.demos.dm.loan.rules</packageName>
-  <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
