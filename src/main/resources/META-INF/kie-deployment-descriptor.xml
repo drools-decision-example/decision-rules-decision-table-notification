@@ -8,7 +8,14 @@
     <marshalling-strategies/>
     <event-listeners/>
     <task-event-listeners/>
-    <globals/>
+    <globals>
+        <global>
+            <resolver>mvel</resolver>
+            <identifier>com.drools.example.NotificationOutput</identifier>
+            <parameters/>
+            <name>NotificationOut</name>
+        </global>
+    </globals>
     <work-item-handlers/>
     <environment-entries/>
     <configurations/>
