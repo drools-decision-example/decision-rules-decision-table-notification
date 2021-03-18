@@ -8,10 +8,6 @@
     <hideColumn>false</hideColumn>
     <width>150</width>
   </descriptionCol>
-  <ruleNameColumn>
-    <hideColumn>true</hideColumn>
-    <width>150</width>
-  </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
   <conditionPatterns>
@@ -27,13 +23,12 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>148</width>
-          <header>Attr1</header>
+          <width>100</width>
+          <header>Atrr1</header>
           <constraintValueType>1</constraintValueType>
           <factField>attr1</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList></valueList>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -45,12 +40,11 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Attr2</header>
+          <header>Atrr2</header>
           <constraintValueType>1</constraintValueType>
           <factField>attr2</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList></valueList>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -62,7 +56,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Attr3</header>
+          <header>Atrr3</header>
           <constraintValueType>1</constraintValueType>
           <factField>attr3</factField>
           <fieldType>String</fieldType>
@@ -78,7 +72,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Attr4</header>
+          <header>Atrr4</header>
           <constraintValueType>1</constraintValueType>
           <factField>attr4</factField>
           <fieldType>String</fieldType>
@@ -94,7 +88,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Attr5</header>
+          <header>Atrr5</header>
           <constraintValueType>1</constraintValueType>
           <factField>attr5</factField>
           <fieldType>String</fieldType>
@@ -117,7 +111,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>134</width>
+      <width>100</width>
       <header>Alert1</header>
       <factType>NotificationOutput</factType>
       <boundName>NotificationOut</boundName>
@@ -132,7 +126,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>152</width>
+      <width>100</width>
       <header>Alert2</header>
       <factType>NotificationOutput</factType>
       <boundName>NotificationOut</boundName>
@@ -147,7 +141,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>132</width>
+      <width>100</width>
       <header>Alert3</header>
       <factType>NotificationOutput</factType>
       <boundName>NotificationOut</boundName>
@@ -162,7 +156,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>183</width>
+      <width>100</width>
       <header>Alert4</header>
       <factType>NotificationOutput</factType>
       <boundName>NotificationOut</boundName>
@@ -177,7 +171,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>131</width>
+      <width>100</width>
       <header>Alert5</header>
       <factType>NotificationOutput</factType>
       <boundName>NotificationOut</boundName>
@@ -192,7 +186,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>236</width>
+      <width>100</width>
       <header>Alert6</header>
       <factType>NotificationOutput</factType>
       <boundName>NotificationOut</boundName>
@@ -238,8 +232,7 @@
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.redhat.demos.dm.loan.rules</packageName>
-  <version>739</version>
+  <packageName>org.drools.examples.decisiontable.notification</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
@@ -251,12 +244,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Notification-01</valueString>
+        <valueString>Notification-1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -324,22 +312,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Notification-2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>true</valueString>
+        <valueString>false</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -350,6 +328,11 @@
       </value>
       <value>
         <valueString>false</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -397,22 +380,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Notification-3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>true</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>true</valueString>
+        <valueString>false</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -428,6 +401,11 @@
       </value>
       <value>
         <valueString>false</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -470,27 +448,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Notification-4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>false</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>false</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>true</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>false</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>false</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -540,11 +513,6 @@
         <valueNumeric class="int">5</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -616,11 +584,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Notification-6</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -631,17 +594,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>false</valueString>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>false</valueString>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>false</valueString>
+        <valueString>true</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
