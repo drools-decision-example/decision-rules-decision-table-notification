@@ -8,6 +8,10 @@
     <hideColumn>false</hideColumn>
     <width>150</width>
   </descriptionCol>
+  <ruleNameColumn>
+    <hideColumn>true</hideColumn>
+    <width>150</width>
+  </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
   <conditionPatterns>
@@ -234,7 +238,8 @@
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>org.drools.examples.decisiontable</packageName>
+  <packageName>com.redhat.demos.dm.loan.rules</packageName>
+  <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
